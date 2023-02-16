@@ -153,8 +153,8 @@ const Login = (props) => {
         >
           <label htmlFor="password">College</label>
           <input
-            type="password"
-            id="password"
+            type="text"
+            id="collegename"
             value={collegeState.value}
             onChange={collegeChangeHandler}
             onBlur={validateCollegeHandler}
